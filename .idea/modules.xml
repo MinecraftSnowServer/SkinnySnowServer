@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkinnySnowServer.iml" filepath="$PROJECT_DIR$/.idea/modules/SkinnySnowServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkinnySnowServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SkinnySnowServer_main.iml" group="SkinnySnowServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkinnySnowServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SkinnySnowServer_test.iml" group="SkinnySnowServer" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+name: SkinnySnowServer
+main: org.snowtec.mine.skinny.SkinnySnowServer
+load: STARTUP
+version: 1.0-SNAPSHOT
+authors: [Davy]
+depend:
+  - Skinny

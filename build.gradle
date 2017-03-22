@@ -1,0 +1,40 @@
+group 'org.snowtec.mine.skinny'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+}
+
+repositories {
+    jcenter()
+
+    maven {
+        name 'jitpack'
+        url 'https://jitpack.io'
+    }
+    maven {
+        name 'spigotmc-nexus'
+        url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots'
+    }
+}
+
+dependencies {
+    compileClasspath 'org.bukkit:bukkit:1.11.2-R0.1-SNAPSHOT', {
+        ext { fatJarExclude = true }
+    }
+    compileClasspath 'com.github.david50407:skinny:5dd892d3dd', {
+        ext { fatJarExclude = true }
+    }
+}
